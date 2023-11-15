@@ -1,0 +1,49 @@
+body {
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    height: 700;
+    width: 500;
+    display: block;
+    margin: auto;
+}
+
+main h1{
+    text-align: center;
+    padding: 20px;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+footer > nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+}
+
+
+
