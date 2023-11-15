@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>labs1</title>
+</head>
+
+<body>
+  <header>
+    <a href="http://127.0.0.1:5500/lab1/index.html"><img
+        src="https://i.pinimg.com/originals/2e/cf/73/2ecf7364cd78b7222311518159a72179.jpg" alt="logo" width="300"
+        height="300"></a>
+    <nav>
+      <ul>
+        <li>
+          <p><a href="http://127.0.0.1:5500/lab1/about.html">О наc</a></p>
+        </li>
+        <li><a href="http://127.0.0.1:5500/lab1/form.html">Форма обратной связи</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Форма обратной связи</h1>
+    <form action="/action_page.php">
+      <p>ФИО заказчика:<input type="text" name="ФИО заказчика"></p>
+      <p>Количество туристов: <input type="text" name="Количествотуристов"></p>
+      <p>Телефон:<input type="text" name="Телефон"></p>
+      <p>Адрес электронной почты:<input type="text" name="Адресэлектроннойпочты"></p>
+      <p>Звёздность отеля:</p>
+      <div>
+        <label for="3звезды">3 звезды</label>
+        <input type="checkbox" id="3звезды">
+        <label for="4звезды">4 звезды</label>
+        <input type="checkbox" id="4звезды">
+        <label for="5звёзд">5 звезд</label>
+        <input type="checkbox" id="5звёзд">
+        <p>Страна для Вашего отдыха: </p>
+        <label for="Турция">Турция</label>
+        <input type="radio" name="country" id="Турция" value="Турция"><br>
+        <label for="Кипр">Кипр</label>
+        <input type="radio" name="country" id="Кипр" value="Кипр"><br>
+        <label for="Тайланд">Тайланд</label>
+        <input type="radio" name="country" id="Тайланд" value="Тайланд"><br>
+        <label for="Куба">Куба</label>
+        <input type="radio" name="country" id="Куба" value="Куба"><br>
+        <label for="ОАЭ">ОАЭ</label>
+        <input type="radio" name="country" id="ОАЭ" value="ОАЭ"><br>
+        <label for="Египет">Египет</label>
+        <input type="radio" name="country" id="Египет" value="Египет"><br>
+      </div>
+      Отдалённость от моря:<select name="Отдалённость от моря:" id="Отдалённостьотморя">
+        <option value="1-ая линия">1-ая линия</option>
+        <option value="2-ая линия">2-ая линия</option>
+        <option value="3-ая линия">3-ая линия</option>
+      </select>
+      <p>Пожелания к туру: <textarea name="Пожелания" id="Пожелания" cols="50" rows="5"></textarea></p>
+      <input type="submit" value="Подобрать тур">
+      <input type="reset" value="Очистить форму">
+    </form>
+  </main>
+  <p>
+  <footer>
+    <nav>
+      <a href="https://www.miet.ru/"><img src="https://www.ctpo.moscow/wp-content/uploads/2020/10/miet.jpg"
+          alt="logoMIET" width="" height="100"></a>
+      <a href="http://127.0.0.1:5500/lab1/about.html">О нас</a></li>
+      <a href="http://127.0.0.1:5500/lab1/form.html">Форма обратной связи</a>
+    </nav>
+  </footer>
+  </p>
+</body>
+
+</html>
