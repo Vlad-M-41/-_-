@@ -49,3 +49,28 @@ footer nav {
 nav a {
     float: left;
 }
+
+/*для формы*/
+
+a:hover {
+    color: rgb(255, 51, 0);
+    text-decoration: underline;
+    background-color: rgb(255, 153, 1);
+    cursor: pointer;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+label , input , select {
+    cursor: pointer;
+}
+
+/*для туров в индексе*/

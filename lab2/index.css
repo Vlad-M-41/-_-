@@ -30,10 +30,10 @@ nav li {
 }
 
 nav a {
-    display: block;
+    display: inline-block;
     color: white;
-    text-align: center;
-    padding: 15px 16px;
+    text-align: left;
+    padding: 10px;
     text-decoration: none;
 }
 
