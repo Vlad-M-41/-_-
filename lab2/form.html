@@ -25,10 +25,27 @@
   <main>
     <h1>Форма обратной связи</h1>
     <form action="/action_page.php">
-      <p>ФИО заказчика:<input type="text" name="ФИО заказчика"></p>
-      <p>Количество туристов: <input type="text" name="Количествотуристов"></p>
-      <p>Телефон:<input type="text" name="Телефон"></p>
-      <p>Адрес электронной почты:<input type="text" name="Адресэлектроннойпочты"></p>
+      <div class="">
+        <div class="field">
+          <label for="FULLname">ФИО заказчика:</label>
+          <input type="text" name="ФИО заказчика">
+        </div>
+        <div class="field">
+          <label for="Kol-vo">Количество туристов:</label>
+          <input type="text" name="Количествотуристов">
+        </div>
+        <div class="field">
+          <label for="PhoneNumber">Телефон:</label>
+          <input type="text" name="Телефон">
+        </div>
+        <div class="field">
+          <label for="Adress">Адрес электронной почты:</label>
+          <input type="text" name="Адресэлектроннойпочты"></p>
+        </div>
+      </div>
+        
+    
+      
       <p>Звёздность отеля:</p>
       <div>
         <label class="VIBOR" for="3звезды">3 звезды</label>
@@ -56,7 +73,13 @@
         <option value="2-ая линия">2-ая линия</option>
         <option value="3-ая линия">3-ая линия</option>
       </select>
-      <p>Пожелания к туру: <textarea name="Пожелания" id="Пожелания" cols="50" rows="5"></textarea></p>
+      <div class="gopa">
+        <div class="field">
+        <label for="Pogelaniya">Пожелания к туру: </label>
+        <textarea name="Пожелания" id="Пожелания" cols="50" rows="5"></textarea></p>
+        </div> 
+      </div>
+      
       <input type="submit" value="Подобрать тур">
       <input type="reset" value="Очистить форму">
     </form>
