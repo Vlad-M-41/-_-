@@ -11,7 +11,7 @@ body {
 /*для img которая находится в header*/
 header img {
     height: 700;
-    width: 500;
+    width: 500px;
     display: block;
     margin: auto;
 }
@@ -30,10 +30,10 @@ nav li {
 }
 
 nav a {
-    display: block;
+    display: inline-block;
     color: white;
-    text-align: center;
-    padding: 15px 16px;
+    text-align: left;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -45,32 +45,42 @@ footer nav {
     background-color: chocolate;
     overflow: hidden;
 }
+.v:hover {
+    background-color: rgb(255, 125, 32);
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+}
 
 nav a {
     float: left;
 }
-
-/*для формы*/
-
-a:hover {
-    color: rgb(255, 51, 0);
-    text-decoration: underline;
-    background-color: rgb(255, 153, 1);
+.field {
+    border-color: brown;
+    border-width: 3px;
+    width: 10%;
+    height: 15px;
+    position: absolute;
+    left: 11%;
     cursor: pointer;
 }
-
-a:link {
-    color: white;
-    text-decoration: none;
+.point {
+    position: absolute;
+    left: 4%;
     cursor: pointer;
 }
-
+.line , .Kursor {
+    cursor: pointer;
+}
 h1 {
     text-align: center;
     text-decoration: underline;
 }
-label , input , select {
-    cursor: pointer;
+.Zagolovok {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
 }
-
-/*для туров в индексе*/
