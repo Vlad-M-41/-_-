@@ -83,6 +83,9 @@ tr th {
     width: 9%;
     height: 20px;
 }
+table tr {
+    border-color: brown;
+}
 
 .stolb {
     background-color: rgb(255, 175, 117);
@@ -95,6 +98,12 @@ td , th {
     background-color: rgb(255, 152, 79);
     text-align: center;
 }
+th {
+    border-bottom: 5px;
+    border-left: 5px;
+    border-color: black;
+}
 #pustota {
     background-color: rgb(182, 76, 0);
+    
 }
