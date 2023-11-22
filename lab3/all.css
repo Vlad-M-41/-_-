@@ -16,6 +16,7 @@ nav>ul {
     padding: 0;
     background-color: chocolate;
     overflow: hidden;
+    border-bottom-left-radius: 10px;
 }
 
 nav li {
@@ -23,9 +24,9 @@ nav li {
 }
 
 nav a {
-    display: block;
+    display: inline-block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     text-decoration: none;
 }
@@ -36,6 +37,8 @@ footer nav {
     background-color: chocolate;
     overflow: hidden;
 }
+
+
 
 nav a {
     float: left;
@@ -68,10 +71,29 @@ a:link {
     display: inline-block;
 }
 
+nav a {
+    float: left;
+}
+
 h1 {
     text-align: center;
     text-decoration: underline;
 }
 label , input , select {
     cursor: pointer;
+}
+
+/*FlexBox для ХЭДЭР*/
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.flex-container > div {
+    width: 12,5%;
+    margin: 1px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 19px;
+    gap: auto;
 }

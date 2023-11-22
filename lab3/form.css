@@ -23,6 +23,7 @@ nav>ul {
     padding: 0;
     background-color: chocolate;
     overflow: hidden;
+    border-bottom-left-radius: 10px;
 }
 
 nav li {
@@ -53,22 +54,29 @@ footer nav {
     text-decoration: underline;
     display: inline-block;
 }
-
 nav a {
     float: left;
+}
+
+form {
+    display: flex;
+    gap: 32px;
+    margin:auto;
+    flex-direction: column;
+    width: 600px;
+}
+form div div {
+    display: flex;
+    justify-content: space-between;
 }
 .field {
     border-color: brown;
     border-width: 3px;
-    width: 10%;
+    width: 300px;
     height: 15px;
-    position: absolute;
-    left: 11%;
     cursor: pointer;
 }
 .point {
-    position: absolute;
-    left: 4%;
     cursor: pointer;
 }
 .line , .Kursor {
@@ -83,4 +91,22 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
     font-weight: 700;
+}
+.Kursor {
+    align-self: flex-end;
+}
+/*FlexBox для ХЭДЭР*/
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.flex-container > div {
+    width: 12,5%;
+    margin: 1px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    gap: auto;
+    
 }
