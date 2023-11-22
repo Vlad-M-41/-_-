@@ -12,3 +12,7 @@ https://vlad-m-41.github.io/-_-/lab2/index.html
 /*LAB3*/
 
 https://vlad-m-41.github.io/-_-/lab3/index.html
+
+/*LAB4*/
+
+https://vlad-m-41.github.io/-_-/lab4/index.html

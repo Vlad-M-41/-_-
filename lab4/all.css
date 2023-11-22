@@ -1,0 +1,99 @@
+body {
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header img {
+    height: 700;
+    width: 500;
+    display: block;
+    margin: auto;
+}
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+}
+footer nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+    overflow: hidden;
+}
+
+
+
+nav a {
+    float: left;
+}
+.Zagolovok {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.dannie {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.v:hover {
+    background-color: rgb(255, 125, 32);
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+nav a {
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+label , input , select {
+    cursor: pointer;
+}
+
+/*FlexBox для ХЭДЭР*/
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.flex-container > div {
+    width: 12,5%;
+    margin: 1px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 19px;
+    gap: auto;
+}
