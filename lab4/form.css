@@ -110,3 +110,46 @@ h1 {
     gap: auto;
     
 }
+.formfile_form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 1200px;
+    margin-bottom: 15px;
+}
+.formfile_checkbox {
+    display: inline-block;
+    min-width: 75px;
+}
+.formfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formfile_input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.formfile_radio_label {
+    display: inline-block;
+    min-width: 75px;
+}
+
+.formfile_radio {
+    display: flex;
+    flex-direction: column;
+}
+.formfile_select {
+    min-width: 200px;
+}
+.formfile_textarea {
+    display: flex;
+    align-items: start;
+
+}
+.section__output {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
